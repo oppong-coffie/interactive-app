@@ -1,0 +1,112 @@
+body{
+    
+}
+.date{
+    display: flex;
+    gap: 10px;
+}
+.mm .month{
+    width: 5vw;
+}
+.formitem .year{
+    width: 5vw;
+    border-radius: 10px;
+}
+.cvc{
+    width: 100%;
+}
+.cvc .cvcinput{
+    border-radius: 10px;
+}
+
+.formitem .primary{
+    width: 100%;
+    height: 3vw;
+    background-image: linear-gradient(to right, #240238, #3f0244);
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.formcontainer{
+    width: 50%;
+    margin-left: 10vw;
+    
+}
+.formitem .forminput, .year, .month, .cvcinput, .primary{
+    width: 100%;
+    height: 3vw;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+.formitem .month, .year{
+    border-radius: 10px;
+}
+label{
+    font-size: 30px;
+    font-weight: 900;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+/*@media query*/
+@media screen and (max-width:376px){
+    body{
+    
+    }
+    .date{
+        display: flex;
+        gap: 10px;
+    }
+    .mm .month{
+        width: 17vw;
+    }
+    .formitem .year{
+        width: 17vw;
+        border-radius: 5px;
+    }
+    .cvc{
+        width: 100%;
+    }
+    .cvc .cvcinput{
+        border-radius: 10px;
+    }
+    
+    .formitem .primary{
+        width: 100%;
+        height: 6vh;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .formcontainer{
+        width: 80%;
+        margin-left: 0vw;
+        padding: 130px 0px 0px 0px;
+        
+    }
+    .formitem .forminput, .year, .month, .cvcinput, .primary{
+        width: 100%;
+        height: 6vh;
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .formitem .month, .year{
+        border-radius: 10px;
+    }
+    label{
+        font-size: 30px;
+        font-weight: 900;
+        color: #000000;
+        margin-bottom: 10px;
+    } 
+}

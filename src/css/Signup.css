@@ -1,0 +1,149 @@
+ 
+   
+.maincontainer{
+    display: flex;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+.dark-bg{
+    background-image: url('../img/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100vh;
+    
+}
+.dark-bg-items{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+    margin-left: 150px;
+    color: white;
+}
+.white-card{
+    background-image: url('../img/bg-card-back.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 28vw;
+    height: 32vh;
+    border-radius: 10PX;
+    margin-left: 100px;
+}
+.colored-card{
+    background-image: url('../img/bg-card-front11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 28vw;
+    height: 32vh;
+  border-radius: 10PX;
+}
+
+
+.white-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.maindown{
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.code{
+    font-size: 21px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+/*cvc number on the white card*/
+.num{
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-top: 110px;
+    margin-left:300px;
+}
+
+
+
+
+
+@media screen and (max-width:376px){
+ 
+   
+    .maincontainer{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    .dark-bg{
+        width: 100%;
+        height: 28vh;
+        
+    }
+    .dark-bg-items{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        color: white;
+        padding: 10px;
+    }
+    .white-card{
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 22vh;
+        border-radius: 10PX;
+        margin-left: 55px;
+    }
+    .colored-card{
+        width: 80%;
+        height: 22vh;
+      border-radius: 10PX;
+      margin-top: -52px;
+    }
+
+
+
+    .white-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    
+    .maindown{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    margin-top: 70px;
+    }
+    .down{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 15px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .code{
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    /*cvc number on the white card*/
+    .num{
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        margin-top: 70px;
+        margin-left:180px;
+    }
+}
